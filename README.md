@@ -5,7 +5,7 @@
 * **Drone Config Server (Server 1):** จัดเก็บข้อมูลการตั้งค่า (Config) และสถานะปัจจุบันของโดรน
 * **Drone Log Server / PocketBase (Server 2):** จัดเก็บประวัติบันทึกข้อมูล (Logs) อุณหภูมิของโดรน
 
-**ลิงก์ที่ Deploy แล้ว:** http://assignment1webapp.onrender.com/configs/67010174
+**ลิงก์ที่ Deploy แล้ว:** http://assignment1webapp.onrender.com
 
 ---
 
@@ -13,9 +13,9 @@
 
 สามารถเปิดเบราว์เซอร์แล้วเรียกดูข้อมูลผ่าน Endpoint ต่างๆ ได้ดังนี้:
 
-* **ดึงข้อมูล Config:** `http://assignmentwebapp-1.onrender.com/configs/67010174`
-* **ดึงข้อมูลสถานะ (Status):** `http://assignmentwebapp-1.onrender.com/status/67010174`
-* **ดึงประวัติอุณหภูมิ (Logs):** `http://assignmentwebapp-1.onrender.com/logs/67010174`
+* **ดึงข้อมูล Config:** http://assignment1webapp.onrender.com/configs/67010174
+* **ดึงข้อมูลสถานะ (Status):** http://assignment1webapp.onrender.com/status/67010174
+* **ดึงประวัติอุณหภูมิ (Logs):** http://assignment1webapp.onrender.com/logs/67010174
 
 ---
 
@@ -26,7 +26,7 @@
    ```bash
    npm install
    ```
-3. สร้างไฟล์ชื่อ `.env` ไว้ที่ตำแหน่งโฟลเดอร์หลัก (ระดับเดียวกับ `server.js`) และกำหนดค่าตัวแปรดังนี้[cite: 4, 5]:
+3. สร้างไฟล์ชื่อ `.env` ไว้ที่ตำแหน่งโฟลเดอร์หลัก (ระดับเดียวกับ `server.js`) และกำหนดค่าตัวแปรดังนี้:
    ```env
    PORT=3000
    CONFIG_URL=<ใส่ URL ของ Drone Config Server>
@@ -38,9 +38,9 @@
    npm start
    ```
 5. ทดสอบเรียกใช้งานผ่านเบราว์เซอร์ด้วย URL ด้านล่าง:
-   * `http://localhost:3000/configs/67010174`
-   * `http://localhost:3000/status/67010174`
-   * `http://localhost:3000/logs/67010174`
+   * [`http://localhost:3000/configs/67010174`](http://localhost:3000/configs/67010174)
+   * [`http://localhost:3000/status/67010174`](http://localhost:3000/configs/67010174)
+   * [`http://localhost:3000/logs/67010174`](http://localhost:3000/configs/67010174)
 
 ---
 
