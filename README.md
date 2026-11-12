@@ -5,7 +5,7 @@
 * **Drone Config Server (Server 1):** จัดเก็บข้อมูลการตั้งค่า (Config) และสถานะปัจจุบันของโดรน
 * **Drone Log Server / PocketBase (Server 2):** จัดเก็บประวัติบันทึกข้อมูล (Logs) อุณหภูมิของโดรน
 
-**ลิงก์ที่ Deploy แล้ว:** http://assignment1webapp.onrender.com
+**ลิงก์ที่ Deploy แล้ว:** http://assignment1webapp.onrender.com/configs/67010174
 
 ---
 
